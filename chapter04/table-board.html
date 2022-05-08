@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+    <style>
+        table{
+            border: 3px solid green;
+            width: 500px;
+            height: 100px;
+        }
+        th, td{
+            border: 1px solid green;
+            text-align: center;
+        }
+        td:nth-of-type(2){text-align: left; padding-left: 15px;}
+    </style>
+</head>
+<body>
+   <h2>질문 / 답변 게시판</h2>
+   <table>
+       <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+       </tr>
+       <tr>
+            <td>1</td>
+            <td>방역패스란 무엇인가?</td>
+            <td>홍길동</td>
+            <td>2020.01.04</td>
+       </tr>
+   </table>
+</body>
+</html>

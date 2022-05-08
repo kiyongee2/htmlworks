@@ -1,10 +1,11 @@
+.align{width: 700px; border: 1px solid #ccc; margin:10px auto;}
 h1{ color: #0000ff;}
 p{
     /* 기본은 align-left, 양쪽정렬: justify */
-    text-align: left;
+    /* text-align: left; */
     /* text-align: center; */
     /* text-align: right; */
-    /* text-align: justify; */
+    text-align: justify;
 
     line-height: 1.5; 
     /*글자크기의 1.5배 줄간격 */
