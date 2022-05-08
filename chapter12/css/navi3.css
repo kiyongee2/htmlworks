@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0;}
+header{height: 60px;}
+/* 메뉴 스타일 */
+nav ul{list-style: none; padding: 10px 20px;}
+nav ul li{
+  /* transform 속성 사용을 위해 크기를 만들어줌 */
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  margin: 10px 20px;
+  border-top: 3px solid #222;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li a{text-decoration: none;color: black;}
+nav ul li:hover{background-color: #eee; transform: scale(1.1);}
+/* section 스타일 */
+section{background-color:aliceblue; height: 300px; padding: 10px; margin: 20px;}

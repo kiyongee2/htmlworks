@@ -1,0 +1,11 @@
+header.page-header {
+  background: no-repeat left url(../images/bear.jpg);
+  height: 200px;
+  min-width: 900px;
+  color: #fff;
+  text-shadow: #000 0 0 .2em;
+}
+h1{margin-top: 0px;}
+main {
+  font: 1rem 'Fira Sans', sans-serif;
+}

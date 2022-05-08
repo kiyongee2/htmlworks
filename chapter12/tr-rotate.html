@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translate(이동) 예제</title>
+    <style>
+        /* origin 박스 속성 */
+        .origin{
+            width: 210px;
+            height: 200px;
+            border:1px solid #ccc;
+            margin: 50px;
+            float: left;
+        }
+        #rotate1:hover{
+            -webkit-transform: rotate(30deg);  /*크롬 사파리*/
+            -ms-transform: rotate(30deg);  /*인터넷 익스플로러*/
+            transform: rotate(30deg);  /*시계 방향으로 30도 회전, deg(degree의 약자)*/
+        }
+        #rotate2:hover{
+            -webkit-transform: rotate(-30deg);  /*크롬 사파리*/
+            -ms-transform: rotate(-30deg);  /*인터넷 익스플로러*/
+            transform: rotate(-30deg);  /*시계 반대방향으로 30도 회전, deg(degree의 약자)*/
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div id="rotate1">
+            <img src="images/fruit.jpg">
+        </div>
+    </div>
+    <div class="origin">
+        <div id="rotate2">
+            <img src="images/fruit.jpg">
+        </div>
+    </div>
+</body>
+</html>

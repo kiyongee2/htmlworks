@@ -1,0 +1,13 @@
+.goods {width: 600px; margin : 0 auto;}
+ul li {margin:15px;}
+
+/* 가상요소 ::after */
+/* content: 'NEW' 사용 */
+ul .new::after{
+  content: "NEW";
+  background-color: #f00;
+  border-radius: 2px;
+  font-size: x-small;
+  color: #fff;
+  margin: 0 6px;
+}

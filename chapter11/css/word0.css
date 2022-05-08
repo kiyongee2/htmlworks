@@ -1,0 +1,21 @@
+/* 모바일 기준 */
+@media screen and (min-width: 320px){ 
+    *{margin: 0; padding: 0; box-sizing: border-box; } 
+    body{background-color: rgb(2, 2, 138);}
+    #container{width: 320px; margin: 50px auto;}
+    .card{position: relative; width: 300px; height: 550px;
+          background-color: white;margin: 20px 10px;}
+    .word{position: absolute; top: 320px; left: 10px;text-align: center;}
+    h2{font-size: 1.2em;}
+} 
+/* 태블릿 기준 */
+@media screen and (min-width: 768px){ /*최소 768px이상 */
+    #container{width: 570px;}
+    .card{position: relative; width: 550px;height: 250px; background: white;}
+    .word{position: absolute; width: 200px; top: 50px; left: 310px;}
+}
+/* PC 기준 */
+@media screen and (min-width: 1730px){
+    #container{width: 1730px;}
+    .card{float:left;}
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index 속성 사용하기</title>
+    <style>
+        img{
+            margin: 10px;
+            padding: 10px;
+            border: 10px solid #000000;
+        }
+       .invisible{
+           visibility: hidden;
+           /* display: none; */
+           /* visibility-공간은 남고 이미지는 제거, 
+              display: none- 공간도 제거됨
+            */
+       }
+    </style>
+</head>
+<body>
+    <img src="images/pic1.jpg" alt="사진1">
+    <img src="images/pic2.jpg" alt="사진2" class="invisible">
+    <img src="images/pic3.jpg" alt="사진3">
+</body>
+</html>

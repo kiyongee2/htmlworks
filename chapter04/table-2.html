@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+    <style>
+        table, td{
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+        }
+        td{
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+   <!-- 셀 병합(합치기) 열:colspan / 행-rowspan-->
+   <table>
+       <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+       </tr>
+       <tr>
+            <td></td>
+            <td></td>
+       </tr>
+   </table>
+   <!-- <hr> -->
+   <table>
+       <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+       </tr>
+       <tr>
+            <td colspan="3"></td>
+       </tr>
+   </table>
+</body>
+</html>

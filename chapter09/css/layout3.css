@@ -1,0 +1,11 @@
+*{margin:0; padding:0}
+#container{width: 1200px; margin: 0 auto;}
+#header{height: 120px; padding: 20px; background-color: #acacac;}
+#left-aside{width:200px; height: 600px; padding: 20px; 
+  background-color: #eee; float:left;}
+#contents{width: 720px; height: 600px; padding: 20px;
+  background-color: #dbdbfc; float: left;}
+#right-aside{width:160px; height: 600px; padding: 20px;
+  background-color: #e9e9e9; float:right;}
+#footer{height: 100px; padding: 20px; 
+  background-color: #127512; clear: both;}

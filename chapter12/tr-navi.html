@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translate(이동) 예제</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{width: 800px; height: 100px; }
+        .scalexy{
+            width: 100px;
+            height: 30px;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            text-align: center;
+            margin: 20px;
+            float: left;
+        }
+        .scalexy:hover{
+            transform: scale(1.1); /*크기가 전체적으로 0.8배로 축소*/
+            background-color: #eee;
+        }
+        p{font-size: 1.2em;}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="scalexy">
+            <p>공지사항</p>
+        </div>
+        <div class="scalexy">
+            <p>자료실</p>
+        </div>
+        <div class="scalexy">
+            <p>질문/답변</p>
+        </div>
+        <div class="scalexy">
+            <p>동영상강의</p>
+        </div>
+    </nav>
+</body>
+</html>

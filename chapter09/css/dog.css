@@ -1,0 +1,62 @@
+header{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgb(1, 68, 18);
+    /* overflow: hidden; */
+}
+nav{
+    width: 60%; /*header-100% 그중에 60% 차지*/
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin: 15px;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+article{
+    width:80%;
+    height: 650px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 5px solid #ccc;
+    /* overflow: hidden; */
+}
+section{
+    width: 31%;
+    height: 550px;
+    float: left;
+    border: 1px dotted #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+section h3{
+   background: url("../images/bg-note.png") no-repeat; 
+   padding-left: 30px;
+}
+aside{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    clear: both;
+    background: #00ff00;
+}
+aside ul li{
+    margin: 5px;
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 1.3em;
+}

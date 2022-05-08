@@ -1,0 +1,14 @@
+/* header 스타일*/
+#container{width: 1000px; margin: 0 auto;}
+header{height: 80px; background: #006699;}
+header #logo{width: 200px; float: left; padding: 15px 20px;}
+header h1{color: #fff; margin:0}
+header h1:hover{color: #2fb2fd}
+header nav{width: 700px; float:right;}
+header nav ul{margin:0; list-style: none; text-align: right; margin-right: 60px; }
+header nav ul li{display: inline-block; margin: 20px; padding: 10px;}
+header nav ul li a{color: white; text-decoration: none;}
+header nav ul li a:hover{color: #2fb2fd}
+
+/* section 스타일 */
+section{padding-left: 20px;}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>공지 창 열기</title>
+</head>
+<body>
+	<!-- 버튼을 누르면 공지 창이 표시됨 -->
+	<form>
+    <input type="button" value="공지 사항" 
+		       onclick="window.open('notice.html', '', 'width=260, height=350, top=100, left=100')">
+					 <!-- window.open(url, windowName, spec) -->
+  </form>
+
+	<!-- 페이지를 열면 공지 창이 표시됨 -->
+	<script>
+		window.open('notice.html', '', 'width=260, height=350, top=100, left=100')
+	</script>
+</body>
+</html>

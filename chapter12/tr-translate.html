@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translate(이동) 예제</title>
+    <style>
+        .origin{
+            width: 200px;
+            height: 134px;
+            border: 1px solid #ccc;
+            float: left;
+            margin: 50px;
+        }
+        #movex:hover{
+            transform: translateX(50px);   /*x축 양의 방향으로 50px 이동*/
+        }
+        #movey:hover{
+            transform: translateY(-20px);  /*y축 방향으로 20px 이동*/
+        }
+        #movexy:hover{
+            transform: translate(30px, 20px);  /*x축 30px, y축 20px 이동*/
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div id="movex">
+            <img src="images/bus.jpg">
+        </div>
+    </div>  
+    <div class="origin">
+        <div id="movey">
+            <img src="images/bus.jpg">
+        </div>
+    </div>  
+    <div class="origin">
+        <div id="movexy">
+            <img src="images/bus.jpg">
+        </div>
+    </div>  
+</body>
+</html>

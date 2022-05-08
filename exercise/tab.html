@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>탭 만들기</title>
+  <style>
+    .tab_menu{position: relative;}
+    .tab_menu ul{list-style: none; }
+    .tab_menu ul li{float: left; margin-right: 15px;}
+    .tab_menu ul li a{text-decoration: none;}
+    .tab_menu ul li .content{display: none; width: 250px; height: 100px; position: absolute;}
+    .tab_menu ul li.is_on .btn{color: green;}
+    .tab_menu ul li.is_on .content{display: block;}
+    </style>
+</head>
+<body>
+  <h2>탭 만들기 예제</h2>
+  <div class="tab_menu">
+    <ul>
+      <li class="is_on">
+        <a href="#tab1" class="btn">Tab1</a>
+        <div id="tab1" class="content">
+          Tab1 내용입니다.<br>
+        </div>
+      </li>
+      <li>
+        <a href="#tab2" class="btn">Tab2</a>
+        <div id="tab2" class="content">Tab2 내용입니다.</div>
+      </li>
+      <li>
+        <a href="#tab3" class="btn">Tab3</a>
+        <div id="tab3" class="content">Tab3 내용입니다.</div>
+      </li>
+    </ul>
+  </div>
+
+  <script src="js/tab.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 display</title>
+    <style>
+        div{
+            margin: 20px;
+            border: 1px solid #ccc;
+        }
+        #inline img{
+            display: inline; /*스타일 없어도 기본 수평배치됨*/
+        }
+        #block img{
+            display: block;  /*블록레벨 - 수직 배치*/
+        }
+        #inline img.none{
+            display: none;  /*이미지를 뺄때*/
+        }
+    </style>
+</head>
+<body>
+    <div id="inline">
+        <img src="images/pic1.jpg" alt="사진1">
+        <img src="images/pic2.jpg" alt="사진2" class="none">
+        <img src="images/pic3.jpg" alt="사진3">
+    </div>
+    <div id="block">
+        <img src="images/pic1.jpg" alt="사진1">
+        <img src="images/pic2.jpg" alt="사진2">
+        <img src="images/pic3.jpg" alt="사진3">
+    </div>
+</body>
+</html>

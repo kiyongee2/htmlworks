@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translate(이동) 예제</title>
+    <style>
+        /* origin 박스 속성 */
+        .origin{
+            width: 210px;
+            height: 200px;
+            border:1px solid #ccc;
+            margin: 50px;
+            float: left;
+        }
+        #scalex:hover{
+            transform: scaleX(1.2); /*x축 방향으로 1.2배 확대*/
+        }
+        #scaley:hover{
+            transform: scaleY(1.5);
+        }
+        #scalexy:hover{
+            transform: scale(0.8); /*크기가 전체적으로 0.8배로 축소*/
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div id="scalex">
+            <img src="images/fruit.jpg">
+        </div>
+    </div>
+    <div class="origin">
+        <div id="scaley">
+            <img src="images/fruit.jpg">
+        </div>
+    </div>
+    <div class="origin">
+        <div id="scalexy">
+            <img src="images/fruit.jpg">
+        </div>
+    </div>
+</body>
+</html>

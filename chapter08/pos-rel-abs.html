@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position 속성</title>
+    <style>
+        #rec1{
+            width: 300px;
+            height: 300px;
+            background: orange;
+            margin: 50px;
+            position: relative;
+            /* 부모 요소가 relative */
+        }
+        #rec2{
+            width: 100px;
+            height: 100px;
+            background: rgb(0, 89, 255);
+            position: absolute;
+            /*top: -20px; top 기준 위로 20px*/
+            left: 50px;
+            bottom: 30px;  /* bottoom 기준 위로 30px */
+        }
+    </style>
+</head>
+<body>
+    <div id="rec1">
+        <div id="rec2"></div>
+    </div>
+</body>
+</html>

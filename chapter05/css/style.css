@@ -1,0 +1,23 @@
+#container{
+    width: 600px;  /*div의 너비*/
+    border: 1px dotted gray;
+    margin: 0px auto;   /*top right bottom left */
+}
+.accent{
+    background-color: black; /*배경색*/
+    color: white;  /*글자색*/
+    padding: 5px;
+}
+p{
+    line-height: 2;
+    font-size: 0.9em;
+}
+.bluetext{
+    color: #212529;
+}
+.browntext{
+    color: brown;
+}
+.boldtext{
+    font-weight: bold;
+}

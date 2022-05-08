@@ -1,0 +1,112 @@
+/* 모바일 767px 이하 */
+
+*{margin:0; padding: 0;}
+#container{
+    width: 100%;
+    margin:0 auto;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background: url("../images/header.jpg") no-repeat;
+    background-size: cover;
+}
+.sticky{ /*nav*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;   
+    background: black;
+}
+#main-nav{
+    list-style: none;
+    text-align: center;
+    padding: 10px;  
+    background: black;
+}
+#main-nav li{
+    display: inline;
+    margin: 0 15px;
+}
+a:link, a:visited{
+    text-decoration: none; 
+    color: white;
+}
+a:active{color: yellow}
+section{
+    width: 100%;
+    padding: 15px 5%; /*좌우값은 가변크기*/
+}
+section:nth-child(2n+1){
+    background: #eee;
+}
+.page-title{
+    padding: 15px;
+    font-family: 'Nanum Pen Script', "맑은 고딕";
+    font-size: 2em;
+}
+section p{
+    line-height: 2em;
+    font-size: 1.2em;
+}
+.content{
+    box-sizing: border-box;
+    margin: 10px auto;   /*가운데 정렬*/
+    padding: 10px;
+}
+.photo{
+    display: none; 
+    /*사진 숨기기*/
+}
+#choice h2{margin-bottom: 10px;}
+#choice ol{padding-left: 30px;}
+#choice li{line-height: 2em;}
+footer{
+    background: #000;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* 태블릿 기준 - 768px 이상 */
+@media screen and (min-width: 768px){
+    header{
+        height: 350px;
+    }
+    #intro, #map{
+        float: left;
+        width: 50%;  /*절반 크기*/
+        height: 300px;
+        box-sizing: border-box;
+        border:1px dotted #ccc;
+    }
+    #choice{
+        clear: both;
+    }
+}
+
+/* PC - 995px 이상 */
+@media screen and (min-width: 995px){
+    #container{
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+    }
+    header{height: 400px;}
+    #intro, #map, #choice{
+        width: 100%;
+        height: 350px;
+        padding: 10px 5%;
+    }
+    .content{
+        margin: 10px auto;
+        padding: 20px;
+    }
+    .photo{display: block; /*사진 보이기*/}
+    #intro .photo, #map .photo{
+        float: left;
+        margin-right: 5%;
+    }
+    #choice .photo{float: right; margin-right: 10%;}
+}

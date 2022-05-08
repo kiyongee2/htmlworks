@@ -1,0 +1,14 @@
+#container{width: 960px; margin: 0 auto; border: 1px dotted #cccccc;}
+header{
+  /* width를 설정하지 않으면 테두리, 패딩 포함 960px임 */
+  border: 1px solid #ccc; padding: 20px; margin-bottom: 20px;
+}
+section{
+  /* width는 콘텐츠 영역 크기임 */
+  width: 640px; height: 600px; border: 1px solid #ccc;
+  padding: 20px; margin-bottom: 20px; float: left;
+}
+aside{width: 220px; height: 600px; border: 1px solid #ccc;
+  padding: 20px; margin-bottom: 20px; float: right; background: #eee;
+}
+footer{border: 1px solid #ccc; padding: 20px; clear: both;}

@@ -1,0 +1,33 @@
+#container{
+  width: 960px;
+  margin: 0 auto;
+  border: 1px dotted #ccc;
+}
+header{
+  border: 1px dotted #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color:beige;
+}
+section{
+  width: 640px;
+  border: 1px dotted #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color:aliceblue;
+  float: left;
+}
+aside{
+  width: 220px;
+  border: 1px dotted #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #eee;
+  float: right;
+}
+footer{
+  border: 1px dotted #ccc;
+  padding: 20px;
+  background-color: cadetblue;
+  clear: both;
+}
