@@ -1,5 +1,6 @@
-#container{width: 650px; margin: 0 auto;}
-#check{width: 640px; border: 1px solid #ccc;}
+/* *{margin:0; padding: 0;} */
+#container{width: 640px; margin: 0 auto;}
+#check{border: 1px solid #ccc;}
 h1{
   background: black;
   color: white;

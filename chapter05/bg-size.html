@@ -11,16 +11,18 @@
             margin: 20px;
         }
         .bg1{
-            background: url("images/bg5.jpg") no-repeat top left;
+            background: url("images/bg5.jpg") no-repeat left top;
             background-size: auto;
         }
         .bg2{
-            background: url("images/bg5.jpg") no-repeat top left;
-            background-size: 200px;
+            /* background: url("images/bg5.jpg") no-repeat; */
+            background: url("images/bg5.jpg") no-repeat;
+            background-position: top 100px left 50px;  
+            background-size: 200px;       /*고정 크기*/
         }
         .bg3{
-            background: url("images/bg5.jpg") no-repeat top left;
-            background-size: 80%;
+            background: url("images/bg5.jpg") no-repeat left top;
+            background-size: 80%;        /*상대 크기*/
         }
         .bg4{
             background: url("images/bg5.jpg") no-repeat;
@@ -28,7 +30,7 @@
         }
         .bg5{ 
             background: url("images/bg5.jpg") no-repeat;
-            background-size: cover;   /*이미지가 박스의 크기만큼 꽉 차게 보여줌*/
+            background-size: cover;   /*이미지가 박스의 크기만큼 꽉 채우고 나머지는 잘림*/
         }
     </style>
 </head>
