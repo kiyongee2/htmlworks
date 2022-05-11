@@ -1,0 +1,26 @@
+/* 메뉴 스타일 */
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* 질문/답변 스타일 */
+table{
+    border: 3px solid #016801;
+    border-collapse: collapse;
+    width: 500px;
+    height: 80px;
+}
+th, td{
+    border: 1px solid #016801;
+    text-align: center;
+}
+
+/* 로그인 스타일 */
+.tbl_login{
+    width: 300px;
+}
+.tbl_login td{
+    width: 150px;
+    height: 30px;
+}
