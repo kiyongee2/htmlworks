@@ -1,0 +1,16 @@
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+fieldset{margin-bottom: 20px;}
+ul li{list-style: none; margin: 15px;}
+ul li label{width: 120px; float: left;}
+ul li input{width: 250px; height: 30px;}
+#path{width: 120px; height: 30px;}
+#button input{width: 150px; height: 50px;
+    font-size: 20px; margin: 5px;}
+#button{text-align: center;}
+#button input:hover{
+    background: rgb(3, 160, 3); color: #fff;
+    border-color: rgba(255, 255, 255, 0.3);
+}
