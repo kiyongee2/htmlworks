@@ -1,0 +1,27 @@
+h1, h2, ul, li, p, div{margin: 0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+.clear::after{content:""; display: block; clear:both;}
+a{color: #333; line-height: 1.5;}
+body{background: #f1f1f1; font-size: 13px;}
+header{background: coral;}
+h1{font-size: 25px; color:#cc0; padding: 10px; color: #fff;}
+.lnb li{margin: 10px; padding: 10px; background: lightgreen;}
+.content{padding: 20px;}
+h2{font-size: 20px;}
+.ext{margin: 10px; padding: 10px;}
+footer{padding: 10px; background: #aaa;}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #container{min-height: calc(100vh - 200px)}
+    .lnb{float: left; width: 25%;}
+    .content{float: left; width: 75%;}
+    .aside{clear: both;}
+}
+
+@media screen and (min-width: 1025px) {
+    .wrap{max-width: 1280px; margin: 0 auto;}
+    #container{min-height: calc(100vh - 200px)}
+    .lnb{float: left; width: 20%;}
+    .content{float: left; width: 50%;}
+    .aside{float: right; width: 30%;}
+}
