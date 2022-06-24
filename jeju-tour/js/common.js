@@ -1,11 +1,20 @@
 //모바일 메뉴 띄움
 $(function(){
-    $('.openMOgnb').click(function(){
-        $('header').addClass('on');
-        $('.header_cont').slideDown('fast');
-        $('.header_cont .closePop').show();		
+    let isOpen = false;  //상태 변수
+    $('.openMOgnb').click(function(){  //메뉴를 클릭하면
+        if(isOpen == false){
+            $('header').addClass('on');
+            $('.header_cont').slideDown('fast');
+            $('.header_cont .closePop').show();	
+            isOpen = true;  //상태 변경
+        }else{  //isOpen == true
+            $('.header_cont').slideUp('fast');
+            $('header').removeClass('on');
+            isOpen = false;
+        } 	
     });
 
+    //닫기 버튼 클릭
     $('header .header_cont .closePop').click(function(){
         $('.header_cont').slideUp('fast');
         $('header').removeClass('on');
